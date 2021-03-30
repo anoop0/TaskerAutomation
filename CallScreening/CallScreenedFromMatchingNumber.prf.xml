@@ -1,0 +1,52 @@
+<TaskerData sr="" dvi="1" tv="5.11.14">
+	<Profile sr="prof4" ve="2">
+		<cdate>1616755162770</cdate>
+		<edate>1617089589444</edate>
+		<flags>8</flags>
+		<id>4</id>
+		<mid0>3</mid0>
+		<nme>CallScreenedFromMatchingNumber</nme>
+		<Event sr="con0" ve="2">
+			<code>2094</code>
+			<pri>0</pri>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%cs_capabilities
+Capabilities
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%cs_incoming
+Incoming
+true if the phone call is incoming, false if you were the one initiating the call&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%cs_name
+Contact Name
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;%cs_number
+Phone Number
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;%cs_properties
+Properties
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">*80955*</Str>
+		</Event>
+	</Profile>
+	<Task sr="task3">
+		<cdate>1616753923945</cdate>
+		<edate>1616842474286</edate>
+		<id>3</id>
+		<nme>BlockCall</nme>
+		<pri>6</pri>
+		<Action sr="act0" ve="7">
+			<code>386</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""/&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+				</Vals>
+			</Bundle>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="1"/>
+			<Int sr="arg5" val="1"/>
+		</Action>
+	</Task>
+</TaskerData>
